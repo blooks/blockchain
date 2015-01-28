@@ -23,8 +23,8 @@
   "dependencies": {
     "async": "^0.9.0",
     "chain-node": "^3.0.1",
-    "coyno-config": "^0.0.7",
-    "coyno-log": "^0.0.7",
+    "coyno-config": "^0.0.8",
+    "coyno-log": "^0.0.8",
     "lodash": "^2.4.1"
   },
   "devDependencies": {
