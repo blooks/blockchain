@@ -1,6 +1,6 @@
 {
   "name": "coyno-chain",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Library for the Chain API",
   "main": "index.js",
   "repository": {
