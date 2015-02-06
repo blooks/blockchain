@@ -1,6 +1,6 @@
 {
   "name": "coyno-chain",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "description": "Library for the Chain API",
   "main": "index.js",
   "repository": {
@@ -12,6 +12,10 @@
     {
       "name": "Leopoldo Godines",
       "email": "lg@leopoldogodines.com"
+    },
+    {
+      "name": "Levin Keller",
+      "email": "levin@coyno.com"
     }
   ],
   "scripts": {
@@ -23,9 +27,10 @@
   "dependencies": {
     "async": "^0.9.0",
     "chain-node": "3.0.1",
-    "coyno-config": "^0.0.13",
     "coyno-log": "^0.0.13",
-    "lodash": "^2.4.1"
+    "debug": "^2.1.1",
+    "lodash": "^2.4.1",
+    "should": "^4.6.5"
   },
   "devDependencies": {
     "chai": "^1.10.0",
