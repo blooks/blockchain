@@ -1,6 +1,6 @@
 {
   "name": "coyno-chain",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Library for the Chain API",
   "main": "index.js",
   "repository": {
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "async": "^0.9.0",
-    "chain-node": "git://github.com/coyno/chain-node.git#585758d5aa39c477bd22ab3b6239cf94897a2b76",
+    "chain-node": "git://github.com/coyno/chain-node.git#226cf3dfe2ae275388e8ed3ff79bf6ddaca97cf8",
     "coyno-log": "^0.0.13",
     "debug": "^2.1.1",
     "lodash": "^2.4.1",
