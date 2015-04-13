@@ -26,9 +26,9 @@
   },
   "dependencies": {
     "async": "^0.9.0",
-    "chain-node": "git://github.com/coyno/chain-node.git#226cf3dfe2ae275388e8ed3ff79bf6ddaca97cf8",
+    "chain-node": "git://github.com/coyno/chain-node.git#7edc9a6cfdacf01822c8570a23b868432ba43bfc",
     "coyno-log": "^0.0.13",
-    "debug": "^2.1.1",
+    "debug": "^2.1.3",
     "lodash": "^2.4.1",
     "should": "^4.6.5"
   },
