@@ -1,6 +1,6 @@
 {
   "name": "coyno-chain",
-  "version": "0.0.12",
+  "version": "0.1.11",
   "description": "Library for the Chain API",
   "main": "index.js",
   "repository": {
@@ -12,33 +12,35 @@
     {
       "name": "Leopoldo Godines",
       "email": "lg@leopoldogodines.com"
+    },
+    {
+      "name": "Levin Keller",
+      "email": "levin@coyno.com"
     }
   ],
   "scripts": {
-    "lint": "gulp lint",
-    "test": "gulp test",
-    "coverage": "gulp coverage",
-    "build": "gulp"
+    "test": "mocha test"
   },
   "dependencies": {
-    "async": "^0.9.0",
-    "chain-node": "3.0.1",
-    "coyno-config": "^0.0.13",
-    "coyno-log": "^0.0.13",
-    "lodash": "^2.4.1"
+    "async": "0.9.x",
+    "chain-node": "git://github.com/coyno/chain-node.git#64a30f98a8c925117179105f6b33079031ad8252",
+    "coyno-log": "0.0.x",
+    "debug": "2.1.x",
+    "lodash": "2.4.x",
+    "should": "4.6.x"
   },
   "devDependencies": {
-    "chai": "^1.10.0",
-    "gulp": "^3.8.10",
-    "gulp-jshint": "^1.9.0",
-    "gulp-mocha": "^2.0.0",
-    "gulp-shell": "^0.2.11",
-    "gulp-util": "^3.0.2",
-    "istanbul": "^0.3.5",
+    "chai": "1.10.x",
+    "gulp": "3.8.x",
+    "gulp-jshint": "1.9.x",
+    "gulp-mocha": "2.0.x",
+    "gulp-shell": "0.2.x",
+    "gulp-util": "3.0.x",
+    "istanbul": "0.3.x",
     "jsdoc": "^3.3.0-alpha13",
-    "jsdoc-to-markdown": "^0.5.9",
-    "mocha": "^2.1.0",
-    "more-fs": "^0.5.0",
-    "through2": "^0.6.3"
+    "jsdoc-to-markdown": "0.5.x",
+    "mocha": "2.1.x",
+    "more-fs": "0.5.x",
+    "through2": "0.6.x"
   }
 }
