@@ -19,14 +19,11 @@
     }
   ],
   "scripts": {
-    "lint": "gulp lint",
-    "test": "gulp test",
-    "coverage": "gulp coverage",
-    "build": "gulp"
+    "test": "mocha test"
   },
   "dependencies": {
     "async": "0.9.x",
-    "chain-node": "git://github.com/coyno/chain-node.git#7edc9a6cfdacf01822c8570a23b868432ba43bfc",
+    "chain-node": "git://github.com/coyno/chain-node.git#64a30f98a8c925117179105f6b33079031ad8252",
     "coyno-log": "0.0.x",
     "debug": "2.1.x",
     "lodash": "2.4.x",
