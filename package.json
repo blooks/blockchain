@@ -1,6 +1,6 @@
 {
   "name": "coyno-blockchain",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Library to get data from the blockchain",
   "main": "index.js",
   "repository": {
