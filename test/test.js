@@ -6,8 +6,8 @@ var log = require('debug')('coyno-chain:test'),
 
 require('should');
 
-var CoynoChain = require('../index.js');
-var coynochain = new CoynoChain("userId", "sourceId");
+var CoynoBlockChainClient = require('../index.js');
+var coynochain = new CoynoBlockChainClient("userId", "sourceId");
 
 // if test function expects second named argument it will be executed
 // in async mode and test will be complete only after callback is called
@@ -26,7 +26,7 @@ describe('Simple tests', function() {
   });
 });
 describe('Heavy duty tests', function() {
-  describe('Get Txs for gambling address', function () {
+  describe.skip('Get Txs for gambling address', function () {
     it('should return 6323 or more transactions', function (done) {
       this.timeout(120000);
       coynochain.fetchTransactionsFromAddresses(["1changePZFvbZivGRy31NNJ21Xf5tPGuV"], function (err, result) {

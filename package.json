@@ -1,11 +1,11 @@
 {
-  "name": "coyno-chain",
+  "name": "coyno-blockchain",
   "version": "0.1.11",
-  "description": "Library for the Chain API",
+  "description": "Library to get data from the blockchain",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/coyno/coyno-chain.git"
+    "url": "http://github.com/coyno/coyno-blockchain.git"
   },
   "author": "Coyno <coyno@coyno.com>",
   "contributors": [
@@ -22,25 +22,29 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "async": "0.9.x",
-    "chain-node": "git://github.com/coyno/chain-node.git#64a30f98a8c925117179105f6b33079031ad8252",
-    "coyno-log": "0.0.x",
-    "debug": "2.1.x",
-    "lodash": "2.4.x",
-    "should": "4.6.x"
+    "async": "^1.5",
+    "coyno-log": "^0.2",
+    "debug": "^2.1",
+    "lodash": "^4.5.1",
+    "request": "^2.69.0",
+    "should": "^8.2"
+  },
+  "peerDependencies": {
+    "bitcore-lib": "^0.13.13"
   },
   "devDependencies": {
-    "chai": "1.10.x",
-    "gulp": "3.8.x",
-    "gulp-jshint": "1.9.x",
-    "gulp-mocha": "2.0.x",
-    "gulp-shell": "0.2.x",
-    "gulp-util": "3.0.x",
-    "istanbul": "0.3.x",
+    "bitcore-lib": "^0.13.13",
+    "chai": "1^.10",
+    "gulp": "^3.8",
+    "gulp-jshint": "^2.0",
+    "gulp-mocha": "^2.0",
+    "gulp-shell": "^0.5",
+    "gulp-util": "^3.0",
+    "istanbul": "^0.4",
     "jsdoc": "^3.3.0-alpha13",
-    "jsdoc-to-markdown": "0.5.x",
-    "mocha": "2.1.x",
-    "more-fs": "0.5.x",
-    "through2": "0.6.x"
+    "jsdoc-to-markdown": "^1.3",
+    "mocha": "^2.1",
+    "more-fs": "^0.5",
+    "through2": "^2.0"
   }
 }
