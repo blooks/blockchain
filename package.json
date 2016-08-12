@@ -1,6 +1,6 @@
 {
   "name": "@blooks/blockchain",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Library to get data from the blockchain",
   "main": "index.js",
   "repository": {
