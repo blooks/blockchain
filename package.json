@@ -1,11 +1,11 @@
 {
-  "name": "coyno-blockchain",
+  "name": "@blooks/blockchain",
   "version": "0.2.3",
   "description": "Library to get data from the blockchain",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/coyno/coyno-blockchain.git"
+    "url": "http://github.com/blooks/blockchain.git"
   },
   "author": "Coyno <coyno@coyno.com>",
   "contributors": [
@@ -15,7 +15,7 @@
     },
     {
       "name": "Levin Keller",
-      "email": "levin@coyno.com"
+      "email": "post@levinkeller.de"
     }
   ],
   "scripts": {
