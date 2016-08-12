@@ -1,11 +1,11 @@
-var CoynoChain = require('./index');
+var CoynoChain = require('./index')
 
-var coynochain = new CoynoChain("ddd","ddd");
+var coynochain = new CoynoChain('ddd', 'ddd')
 
-coynochain.fetchTransactionsFromAddresses(["1HnhWpkMHMjgt167kvgcPyurMmsCQ2WPgg"], function(err, result) {
+coynochain.fetchTransactionsFromAddresses(['1HnhWpkMHMjgt167kvgcPyurMmsCQ2WPgg'], function (err, result) {
   if (err) {
-    console.log(err);
+    console.log(err)
   } else {
-    console.log(result);
+    console.log(result)
   }
-});
+})
