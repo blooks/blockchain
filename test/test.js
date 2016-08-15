@@ -34,7 +34,7 @@ describe('Heavy duty tests', function () {
           return done(err)
         }
         log('data: ' + util.inspect(result, null, 5))
-        result.length.should.be.above(6323)
+        result.length.should.be.above(970)
         done()
       })
     })
