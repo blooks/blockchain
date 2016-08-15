@@ -29,7 +29,7 @@ describe('Heavy duty tests', function () {
   describe('Get Txs for gambling address', function () {
     it('should return 6323 or more transactions', function (done) {
       this.timeout(1200000)
-      blockchain.fetchTransactionsFromAddresses(['1changePZFvbZivGRy31NNJ21Xf5tPGuV'], function (err, result) {
+      blockchain.fetchTransactionsFromAddresses(['1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX'], function (err, result) {
         if (err) {
           return done(err)
         }
